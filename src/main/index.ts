@@ -1,7 +1,20 @@
 import { app, shell, BrowserWindow, ipcMain } from 'electron'
-import { join } from 'path'
+import path, { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
+import { homedir } from 'os'
+import fsExtra from 'fs-extra'
+// 初始化配置存储
+
+// 应用的配置目录
+const appConfigDir = path.join(homedir(), '.ofine')
+const filesDir = path.join(appConfigDir, 'files')
+
+// 确保配置目录存在
+async function ensureConfigDir(): Promise<void> {
+  await fsExtra.ensureDir(appConfigDir)
+  await fsExtra.ensureDir(filesDir)
+}
 
 function createWindow(): void {
   // Create the browser window.

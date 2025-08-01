@@ -1,0 +1,119 @@
+.ofine-code {
+  background: #f5f5f5;
+  padding: 3px;
+  border-radius: 5px;
+  font-family: 'Fira Code', monospace;
+}
+
+.ofine-heading-h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.ofine-heading-h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.ofine-heading-h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.ofine-heading-h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.ofine-heading-h5 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.ofine-heading-h6 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.ofine-image {
+  width: 100%;
+  height: auto;
+}
+
+.ofine-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ofine-listitem {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+.ofine-listitem-nested {
+  margin-left: 40px;
+}
+
+.ofine-list-ol {
+  list-style-type: decimal;
+}
+
+.ofine-list-ul {
+  list-style-type: disc;
+}
+
+.ofine-ltr {
+  direction: ltr;
+}
+
+.ofine-rtl {
+  direction: rtl;
+}
+
+.ofine-paragraph {
+  margin: 0;
+}
+
+.ofine-placeholder {
+  color: #999;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.ofine-quote {
+  border-left: 4px solid #ccc;
+  padding-left: 16px;
+  margin-left: 0;
+}
+
+.ofine-text-bold {
+  font-weight: 600;
+}
+
+.ofine-text-italic {
+  font-style: italic;
+}
+
+.ofine-text-underline {
+  text-decoration: underline;
+}
+
+.ofine-text-strikethrough {
+  text-decoration: line-through;
+}
+
+.ofine-text-code {
+  background: #f5f5f5;
+  padding: 3px;
+  border-radius: 5px;
+  font-family: 'Fira Code', monospace;
+}
